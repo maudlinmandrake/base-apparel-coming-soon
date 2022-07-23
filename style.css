@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: hsl(0, 6%, 24%);
     text-transform: uppercase;
     letter-spacing: 1.5rem;
@@ -56,10 +56,26 @@ p {
     line-height: 2;
 }
 
+form {
+    margin: 30px 0px;
+}
+
+#email {
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 36%, 70%);
+}
+
+#submit {
+    height: 40px;
+    width: 100px;
+}
+
 .attribution { 
     font-size: 11px;
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 93%, 68%); 
 }
